@@ -1,7 +1,5 @@
 import Link from "next/link"
-import Image from "next/image"
 import projects from 'DB/projects.json'
-
 export default function Home() {
     return (
         <>
@@ -17,10 +15,10 @@ export default function Home() {
             <div className='box left col center-full home'>
                 <h2 className='UI w-full center-full box'>المشاريع</h2>
                 <div className='box grid center-full home'>
-                    {projects.map(project => {
+                    {projects.map((project, i) => {
                         return (
-                            <div className='box col center w-300 UI card' key={project.title}>
-                                <Image src={project.image} alt={'logo ' + project.title} />
+                            <div className='box col center w-300 UI card' key={i}>
+                                <img src={project.image} alt={'logo ' + project.title} />
                                 <div>{project.title}</div>
                                 <div className='box row '>
 
