@@ -1,0 +1,106 @@
+
+:root
+    --colorUIM: #f6f9fd
+    --colorUI: #875590
+    --colorUIX: #5f4fad
+    --colorBG: #ffffff
+    --colorBGB: #f2f3f7
+    --colorDark: #2b373a
+    --colorDarkX: #21282a
+    // --colorU#4b774b443
+    // --colorUIX: #019540 
+
+$colorBG: var(--colorBG)
+$colorBGB: var(--colorBGB)
+$colorUI: var(--colorUI)
+$colorUIX: var(--colorUIX)
+$colorUIM: var(--colorUIM)
+$colorDark: var(--colorDark)
+$colorDarkX: var(--colorDarkX)
+@mixin sh()
+    box-shadow: 5px 5px 10px #ddd
+
+.box
+    display: flex
+    padding: 5px 10px
+    &.space
+        justify-content: space-between
+    &.col
+        flex-direction: column
+    &.row
+        flex-direction: row
+    &.grid
+        flex-wrap: wrap
+        justify-content: center
+        flex-direction: row
+    &.left
+        justify-content: flex-start
+        flex-direction: row
+        width: 100%
+
+    &.center
+        align-items: center
+        &-full
+            align-items: center
+            justify-content: center
+        &-col
+            justify-content: center
+    &.scroll
+
+        overflow: scroll
+    .btn
+        color: #fff
+        background-color: $colorUIX
+        box-shadow: 5px 5px 10px #ddd
+        padding: 10px
+        background-image: linear-gradient(45deg, $colorUIX, $colorUIX)
+        text-align: center
+        border-radius: 10px
+        min-width: 50px
+        &.diseble
+            color: $colorUIX
+            background-color: $colorBG
+        &.red
+            color: $colorBG
+            background-color: red
+
+    b
+        padding: 10px
+    strong
+        padding: 0 10px
+    .icon > svg
+        width: 20px
+        height: 20px
+        padding-left: 10px
+.page
+    max-width: 500px
+    width: -webkit-fill-available
+.UI
+    box-shadow: 0px 3px 20px #5b6fa31c
+    background-color: #fff
+    border-radius: 10px
+    color: $colorUIX
+    padding: 10px
+    margin: 10px
+    &:hover
+        transition: box-shadow .2s ease,border .2s ease
+.ui
+    box-shadow: 0px 3px 20px #5b6fa31c
+    background-color: #fff
+    border-radius: 10px
+    color: $colorUIX
+    &:hover
+        transition: box-shadow .2s ease,border .2s ease
+
+button
+    border: 0
+a
+    color: var(--colorUIX)
+    text-decoration: none
+body
+    background-color: $colorBG
+    direction: rtl
+    background-image: linear-gradient(83deg, #ffffff, #87559045)
+*
+    margin: 0
+    padding: 0
