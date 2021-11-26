@@ -1,0 +1,23 @@
+
+// @media app
+
+$phone: 425px
+$tablet: 640px
+$tablet2: 750px
+$laptop: 1024px
+$desktop: 1440px
+@mixin minPhone
+    @media screen and ( max-width: 350px )
+        @content
+        
+@mixin phone  
+    @media screen and ( max-width: $phone )
+        @content
+
+@mixin tablet
+    @media screen and ( max-width: $tablet2 ) and ( min-width: $phone)
+        @content
+
+@mixin laptop
+    @media screen and ( min-width: $tablet2 )
+        @content

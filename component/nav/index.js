@@ -1,11 +1,13 @@
 
+import { Menu } from "component/icon";
 import Link from "next/link"
 
 const Nav = () => {
     return (
         <nav className='box center pup-f w-full ui'  >
+            <Menu />
             <img src='/image/logo.svg' alt='logo site' id='logo' />
-            <div className='box row' >
+            <div className='box row menu' >
                 <Link href={'/'}>
                     <a className='box center center-col'>
                         <p>الرئيسية</p>
