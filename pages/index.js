@@ -15,7 +15,7 @@ export default function Home() {
             <div className='box grid center-full home'>
                 {projects.map(project => {
                     return (
-                        <div className='box col center w-300 UI'>
+                        <div className='box col center w-300 UI card'>
                             <img src={project.image} alt={'logo ' + project.title} />
                             <div>{project.title}</div>
                             <div className='box row '>
