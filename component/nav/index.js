@@ -4,7 +4,7 @@ import Link from "next/link"
 
 const Nav = () => {
     return (
-        <nav className='box center pup-f w-full ui'  >
+        <nav className='box center pup-f  ui'  >
             <div className='menu-icon'>
                 <Menu />
             </div>
