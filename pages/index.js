@@ -12,22 +12,25 @@ export default function Home() {
                     </a>
                 </Link>
             </div>
-            <div className='box grid center-full home'>
-                {projects.map(project => {
-                    return (
-                        <div className='box col center w-300 UI card'>
-                            <img src={project.image} alt={'logo ' + project.title} />
-                            <div>{project.title}</div>
-                            <div className='box row '>
+            <div className='box left col center-full home'>
+                <h2 className='UI w-full center-full box'>المشاريع</h2>
+                <div className='box grid center-full home'>
+                    {projects.map(project => {
+                        return (
+                            <div className='box col center w-300 UI card'>
+                                <img src={project.image} alt={'logo ' + project.title} />
+                                <div>{project.title}</div>
+                                <div className='box row '>
 
-                                <p>{project.owner}</p>
-                                <p>{project.category}</p>
+                                    <p>{project.owner}</p>
+                                    <p>{project.category}</p>
+                                </div>
+                                <div>{project.description}</div>
+                                <a href={project.URL} className='box btn center-full w-full' >معاينة</a>
                             </div>
-                            <div>{project.description}</div>
-                            <a href={project.URL} className='box btn center-full w-full' >معاينة</a>
-                        </div>
-                    )
-                })}
+                        )
+                    })}
+                </div>
             </div>
         </>
     )
