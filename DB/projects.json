@@ -1,0 +1,34 @@
+[
+    {
+        "title": "بوتقة",
+        "description": "خدمة لربط المرضى بالمراكز الطبية و تسهيل الوصول اليها,وتعمل اجزاء من الخدمة حتى مع انقطاع الانترنت",
+        "URL": "https://botqa.vercel.app/",
+        "image": "https://botqa.vercel.app/favicon.ico",
+        "category": "web",
+        "owner": "Qotayba Mohammad"
+    },
+    {
+        "title": "دليل المراكز الطبية",
+        "description": "خدمة لربط المرضى بالمراكز الطبية و تسهيل الوصول اليها",
+        "URL": "https://id-tb.netlify.app/",
+        "image": "https://id-tb.netlify.app/favicon.ico",
+        "category": "web",
+        "owner": "Qotayba Mohammad"
+    },
+    {
+        "title": "بيسكتوب اندرويد",
+        "description": "متجر تطبيقات اندرويد مهكرة برمجة خاصة و مبرمج بافضل التقنيات ",
+        "URL": "https://android.pesktop.com/",
+        "image": "https://android.pesktop.com/favicon.ico",
+        "category": "web",
+        "owner": "Qotayba Mohammad"
+    },
+    {
+        "title": "",
+        "description": "",
+        "URL": "https://id-tb.netlify.app/",
+        "image": "https://id-tb.netlify.app/_favicon.ico",
+        "category": "web",
+        "owner": "Qotayba Mohammad"
+    }
+]
