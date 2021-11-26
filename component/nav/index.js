@@ -5,7 +5,9 @@ import Link from "next/link"
 const Nav = () => {
     return (
         <nav className='box center pup-f w-full ui'  >
-            <Menu />
+            <div className='menu-icon'>
+                <Menu />
+            </div>
             <img src='/image/logo.svg' alt='logo site' id='logo' />
             <div className='box row menu' >
                 <Link href={'/'}>

@@ -22,6 +22,14 @@ h1
 .home > p
     margin: 20px
 @include phone
-    nav 
+    nav
         .menu
+            display: none
+@include tablet
+    nav
+        .menu
+            display: none
+@include laptop
+    nav
+        .menu-icon
             display: none

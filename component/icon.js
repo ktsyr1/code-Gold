@@ -43,7 +43,7 @@ export const Map = () => {
 }
 export const Menu = () => {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="21" viewBox="0 0 30 21">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="21" viewBox="0 0 30 21" className='stroke'>
             <g transform="translate(-3 -7.5)">
                 <path d="M4.5,18h27" fill="none" stroke="#2680eb" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" />
                 <path d="M4.5,9h27" fill="none" stroke="#2680eb" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" />
